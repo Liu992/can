@@ -16,6 +16,9 @@
         <b class="txt">邀请码：{{code}}</b>
         <i class="iconfont icon-yonghu"></i>
       </div>
+      <div class="invite_tip">
+        长按屏幕保存邀请码
+      </div>
     </div>
   </div>
 </template>
@@ -113,5 +116,10 @@
   .invite .invite_content .iconfont{
     font-size: 30px;
     color:#ccc;
+  }
+  .invite_tip{
+    font-weight: 600;
+    margin-top: 40px;
+    color: #ffe0c3;
   }
 </style>
